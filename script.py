@@ -13,7 +13,7 @@ list1=cur.fetchall()
 
 for i in list1:
     print(i)
-input("Press enter to start Wishing. MAke sure you are connected to Internet")
+input("Press enter to start Wishing. Make sure you are connected to Internet and logged in on WhatsApp Web")
     
 for i in list1:
     os.system(f"start https://web.whatsapp.com/send?phone=+91{i[2]}^&text=Happy%20Birthday%20to%20you%20{i[0]}")
